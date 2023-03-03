@@ -27,6 +27,16 @@
   </div>
 
   <div>
+    <%= form.label :prompt, style: "display: block" %>
+    <%= form.text_area :prompt %>
+  </div>
+
+  <div>
+    <%= form.label :result, style: "display: block" %>
+    <%= form.text_area :result %>
+  </div>
+
+  <div>
     <%= form.submit %>
   </div>
 <% end %>

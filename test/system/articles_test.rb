@@ -17,6 +17,8 @@ class ArticlesTest < ApplicationSystemTestCase
     fill_in "Content", with: @article.content
     fill_in "Image", with: @article.image
     fill_in "Title", with: @article.title
+    fill_in "Result", with: @article.result
+    fill_in "Prompt", with: @article.prompt
     click_on "Create Article"
 
     assert_text "Article was successfully created"
@@ -30,6 +32,8 @@ class ArticlesTest < ApplicationSystemTestCase
     fill_in "Content", with: @article.content
     fill_in "Image", with: @article.image
     fill_in "Title", with: @article.title
+    fill_in "Prompt", with: @article.prompt
+    fill_in "Result", with: @article.result
     click_on "Update Article"
 
     assert_text "Article was successfully updated"
