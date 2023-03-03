@@ -4,12 +4,8 @@ one:
   title: MyString
   content: MyText
   image: MyText
-    prompt: MyText
-  result: MyText
 
 two:
   title: MyString
   content: MyText
   image: MyText
-    prompt: MyText
-  result: MyText
